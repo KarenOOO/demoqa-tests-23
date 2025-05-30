@@ -20,7 +20,7 @@ public class TextBoxTests {
     }
 
     @Test
-    void successfulSearchTest() {
+    void fillFormTest() {
         open("/text-box");
         $("#userName").setValue("Alex");
         $("#userEmail").setValue("alex@bk.ru");
